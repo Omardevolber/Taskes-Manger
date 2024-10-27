@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks File</title>
+    <link rel="shortcut icon"
+        href="img/DALL·E 2024-10-27 18.24.51 - Logo for a daily reminder task application. The logo should have a friendly and modern design, featuring a combination of a calendar icon, a checkmark.webp"
+        type="image/webp" class="shortcut-icon">
+    <link rel="stylesheet" href="css/css2.css">
+</head>
+<body>
+    <a href="index.html">
+        <button class="btn">Home</button>
+    </a>
+<div class="tasks-file-container">
+   
+    <input type="date" id="search-date" placeholder="Search by Date" >
+    <button onclick="searchTasks()" class="search-btn">Search Tasks</button>
+    <div id="all-file-list">
+        <h3>All Saved Days:</h3>
+    </div>
+    <div id="search-result"></div>
+    <button id="close-tasks-button" style="display: none;" onclick="closeTasks()">Close Tasks</button>
+</div>
+
+
+</body>
+<script src="js/js2.js"></script>
+</html>

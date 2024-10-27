@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Reminder App</title>
+    <link rel="stylesheet" href="css/css1.css">
+    <link rel="shortcut icon"
+        href="img/DALL·E 2024-10-27 18.24.51 - Logo for a daily reminder task application. The logo should have a friendly and modern design, featuring a combination of a calendar icon, a checkmark.webp"
+        type="image/webp" class="shortcut-icon">
+</head>
+<body>
+
+<div class="reminder-container">
+    <h2>Daily Reminder App</h2>
+    <input type="text" id="task-input" placeholder="Enter your task">
+    <input type="date" id="task-date">
+    <button onclick="addTask()">Add Task</button>
+    <div id="task-list"></div>
+    <button onclick="saveTasks()" class="save-btn">Save Tasks</button>
+    <div id="file-list">
+        <h3>Saved Days (Last 5 Days):</h3>
+    </div>
+    <a href="data.html">
+        <button  class="view-older-tasks">View Older Tasks</button>
+    </a>
+</div>
+
+
+</body>
+<script src="js/js1.js"></script>
+</html>
